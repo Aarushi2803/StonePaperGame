@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.heading{
+      font-size: 36px;
+} 
+.images{
+height: 400px;
+width: 200px;
+
+}
+.images-button{
+    background-color: transparent;
+    border: 6px solid white;
+    border-radius: 10px;
+}
+.reset-button{
+    background-color: white;
+    color: black;
+    border: none;
+    font-size: 16px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+.result{
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+p{
+    padding-left: 1000px;
+    margin-top: -300px;
+}
