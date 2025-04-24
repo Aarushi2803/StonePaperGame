@@ -23,14 +23,10 @@ width: 200px;
     border: none;
     font-size: 16px;
     padding: 8px 15px;
-    cursor: pointer;
+    cursor: pointer; 
 }
 .result{
     font-size: 23px;
     font-weight: bold;
     margin-top: 50px;
-}
-p{
-    padding-left: 1000px;
-    margin-top: -300px;
-}
+} 
