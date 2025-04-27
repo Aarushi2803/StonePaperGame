@@ -7,7 +7,7 @@ body{
 }
   
 .images{
-    height: 400px;
+    height: 200px;
     width: 200px;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.3);
@@ -26,12 +26,14 @@ body{
     cursor: pointer; 
 }
 .result{
-    border: 10px solid black;
+    border: 3px solid black;
+    box-shadow: 10px 10px 0.2px black;
     width: 100px;
     font-size: 23px;
     font-weight: bold;
     font-size: 24px;
     font-weight: bold;
+    margin-left: 700px;
 } 
 
 .images-button:hover {
