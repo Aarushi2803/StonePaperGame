@@ -3,14 +3,14 @@ body{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
+    text-align: center;
 }
-.heading{
-      font-size: 36px;
-} 
+  
 .images{
-height: 400px;
-width: 200px;
-
+    height: 400px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.3);
 }
 .images-button{
     background-color: transparent;
@@ -26,7 +26,46 @@ width: 200px;
     cursor: pointer; 
 }
 .result{
+    border: 10px solid black;
+    width: 100px;
     font-size: 23px;
     font-weight: bold;
-    margin-top: 50px;
+    font-size: 24px;
+    font-weight: bold;
 } 
+
+.images-button:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
+body {
+    background: linear-gradient(to right, #ff7f50, #1e90ff);
+}
+
+.heading {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.images-button {
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+} 
+
+.images-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 12px rgba(255, 255, 255, 0.6);
+}
+
+.reset-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #FFD700;
+    color: black;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
