@@ -68,6 +68,7 @@ localStorage.setItem('score',JSON.stringify(score));
 updateScoreElement(); 
 
 // for result
+document.querySelector('.js-result').style.display = "block";
 document.querySelector('.js-result').innerHTML = result;
 
 // your and compurt moves   
