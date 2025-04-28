@@ -34,7 +34,7 @@ body{
     font-size: 15px;
     font-weight: bold;
     font-weight: bold;
-    margin-left: 700px;
+    margin-left: 600px;
 } 
 
 .images-button:hover {
@@ -48,7 +48,7 @@ body {
 
 .heading {
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
     text-transform: uppercase;
     letter-spacing: 2px;
 }
